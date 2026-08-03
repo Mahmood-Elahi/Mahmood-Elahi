@@ -7,7 +7,7 @@ machine learning, robotics and full-stack software development.
 
 - ☀️ Dashboard Software Team Lead for the UCalgary Solar Car Team
 - 🛰️ Researching hyperspectral and LiDAR-based machine learning @ GSIL
-- 📫 Contact me at [mahmoodelahi33@gmail.com](mailto:mahmoodelahi33@gmail.com)
+- 🌐 Portfolio: [mahmood-elahi.vercel.app](https://mahmood-elahi.vercel.app/)
 
 ---
 
