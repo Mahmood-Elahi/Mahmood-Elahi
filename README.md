@@ -5,7 +5,7 @@ Electrical and Computer Engineering student at the University of Calgary.
 I am interested in autonomous systems, computer vision, embedded systems,
 machine learning, robotics and full-stack software development.
 
-- ☀️ Dashboard Software Team Lead for the UCalgary Solar Car Team
+- ☀️ Interface Software Team Lead for the UCalgary Solar Car Team
 - 🛰️ Researching hyperspectral and LiDAR-based machine learning @ GSIL
 - 🌐 Portfolio: [mahmood-elahi.vercel.app](https://mahmood-elahi.vercel.app/)
 
