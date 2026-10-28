@@ -43,7 +43,7 @@ I'm passionate about Software Engineering, AI/ML, Robotics, and Embedded & Auton
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 #### 🚗 [Argus — Autonomous Driving Perception System](https://github.com/Mahmood-Elahi/Argus)
 
@@ -71,7 +71,7 @@ I'm passionate about Software Engineering, AI/ML, Robotics, and Embedded & Auton
 
 ---
 
-## 🛠️ Tools and Frameworks
+##  Tools and Frameworks
 
 **Languages**
 
