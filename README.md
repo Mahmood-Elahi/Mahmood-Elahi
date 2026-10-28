@@ -1,4 +1,4 @@
-### 👋 Hi, I'm Mahmood Elahi!
+#  Hi, I'm Mahmood Elahi!
 
 I'm an Electrical and Computer Engineering student at the University of Calgary.
 
@@ -16,64 +16,58 @@ I'm passionate about Software Engineering, AI/ML, Robotics, and Embedded & Auton
 
 #### 🔬 Undergraduate Machine Learning Researcher — Geospatial Sensing and Intelligence Lab
 
-<sub>Conducted research on hyperspectral image classification for complex urban land cover mapping. Co-developed STMamba, a semantic aware hierarchical state space architecture combining density peaks clustering, quadtree guided sparse token selection, and parallel spatial spectral Mamba sequencing. Built PyTorch preprocessing, training, and reproducible evaluation pipelines across three benchmark datasets. With only five labeled samples per class, STMamba achieved 93.26% average accuracy, demonstrating strong classification under sparse supervision. Co-authored the research paper available on arXiv and submitted to IEEE Transactions on Image Processing.</sub>
-
-📄 [Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification](https://arxiv.org/abs/2609.28580v1)
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-
-
+> Researched hyperspectral image classification for urban land-cover mapping. Co-developed STMamba, a hierarchical state-space architecture combining density-peaks clustering, quadtree sparse token selection, and spatial-spectral Mamba scanning. Built PyTorch preprocessing, training, and reproducible evaluation pipelines across three benchmark datasets. Achieved 93.26% average accuracy with only five labeled samples per class, demonstrating strong few-shot learning under sparse supervision. Co-authored a research paper submitted to IEEE Transactions on Image Processing.
+>
+> 📄 [Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification](https://arxiv.org/abs/2609.28580v1)
+>
+> ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+> ![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white)
+> ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 #### 🛩️ Avionics Software Engineer — Schulich UAV
 
-<sub>Developing Python edge AI software for a VTOL UAV using ArduPilot and Pixhawk flight controllers. Integrating Raspberry Pi computers through MAVLink and MAVProxy for bidirectional telemetry and command/control. Building custom SDK plugins for Lockheed Martin's VCSi ground control software, provided directly to our UAV team through our collaboration. Integrating ground control software using Flask and JavaScript for autonomous mission planning and flight system integration. Using intelligent object detection and perception pipelines for autonomous decision making and autonomous flight.</sub>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-
-
+> Developing edge AI and autonomous flight software for a VTOL UAV using Python, ArduPilot, and Pixhawk. Integrating Raspberry Pi companion computers through MAVLink for real-time telemetry, mission orchestration, and flight control. Building custom SDK plugins for Lockheed Martin's VCSi ground-control platform, provided directly through our team's collaboration with Lockheed Martin. Developing Flask/JavaScript ground-control integrations and YOLO-based object detection pipelines for autonomous perception, with flight modes and waypoint navigation validated through ArduPilot SITL.
+>
+> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+> ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+> ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 #### ☀️ Interface Systems Software Team Lead — UCalgary Solar Car Team
 
-<sub>Leading a five developer team architecting modular C++/Qt/QML interfaces for the UCalgary solar car. Building telemetry pipelines that decode CAN bus packets into driver facing battery, motor, fault, and vehicle state visualizations. Integrating Protocol Buffers binary serialization for bandwidth efficient communications, RFID identification workflows, and Alpine Linux embedded controllers. Coordinating reusable UI components, typed data flows, and Git based integration to deliver responsive dashboards across the vehicle software stack.</sub>
-
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
-![QML](https://img.shields.io/badge/QML-41CD52?style=flat-square&logo=qt&logoColor=white)
+> Leading a five-developer team building embedded dashboard software for the UCalgary solar car. Architecting modular C++/Qt/QML interfaces and real-time telemetry pipelines that transform CAN bus data into battery, motor, fault, and vehicle-state visualizations. Integrating Protocol Buffers for efficient data serialization, RFID-based identification, and Raspberry Pi controllers running Alpine Linux. Coordinating software architecture, reusable UI components, and Git-based development workflows to deliver responsive, hardware-integrated vehicle interfaces.
+>
+> ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+> ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
+> ![QML](https://img.shields.io/badge/QML-41CD52?style=flat-square&logo=qt&logoColor=white)
 
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
 #### 🚗 [Argus — Autonomous Driving Perception System](https://github.com/Mahmood-Elahi/Argus)
 
-<sub>A modular ROS 2 and Gazebo autonomous driving simulation integrating YOLOv8 object detection, SegFormer road segmentation, lane guidance, decision logic, and vehicle control. Optimized inference with ONNX and TensorRT, with automated model and system validation through GitHub Actions.</sub>
-
-![Detection](https://img.shields.io/badge/mAP50-98.14%25-7C3AED?style=flat-square)
-![Segmentation](https://img.shields.io/badge/mIoU-94.52%25-7C3AED?style=flat-square)
-![Inference](https://img.shields.io/badge/inference-up_to_4.18x-7C3AED?style=flat-square)
+> Built a modular autonomous driving system using ROS 2 and Gazebo, integrating YOLOv8 object detection, SegFormer road segmentation, lane guidance, autonomous decision-making, and vehicle control. Optimized deep learning inference through ONNX and TensorRT, achieving 98.14% detection mAP50, 94.52% segmentation mIoU, and up to 4.18× faster inference. Developed automated validation pipelines with 534 tests and demonstrated autonomous navigation through simulated driving scenarios.
+>
+> ![Detection](https://img.shields.io/badge/mAP50-98.14%25-7C3AED?style=flat-square)
+> ![Segmentation](https://img.shields.io/badge/mIoU-94.52%25-7C3AED?style=flat-square)
+> ![Inference](https://img.shields.io/badge/inference-up_to_4.18x-7C3AED?style=flat-square)
 
 #### ⚡ [Flux — GPU Accelerated LLM Inference Engine](https://github.com/Mahmood-Elahi/Flux)
 
-<sub>A CUDA inference engine for SmolLM2-135M, using fused transformer kernels, compact KV caching, CUDA Graphs, and device resident generation. Custom C++/CUDA execution paths reduce framework overhead and GPU memory traffic as compared to the Hugging Face baseline.</sub>
-
-![Decode](https://img.shields.io/badge/decode-14.2x_faster-EE4C2C?style=flat-square)
-![Prefill](https://img.shields.io/badge/prefill-3.08x_faster-EE4C2C?style=flat-square)
-![Latency](https://img.shields.io/badge/generation_latency-92.4%25_lower-EE4C2C?style=flat-square)
+> Developed a custom C++/CUDA inference engine for SmolLM2-135M, optimizing transformer execution through fused attention, RMSNorm, RoPE, SwiGLU, grouped-query attention, and KV caching. Implemented specialized GPU kernels and optimized decoding pipelines using cuBLASLt to minimize memory traffic and framework overhead. Achieved 14.2× faster decoding, 3.08× faster prefill, and 13.2× faster text generation compared to Hugging Face, while eliminating 2.25 GiB of attention workspace at 8K context.
+>
+> ![Decode](https://img.shields.io/badge/decode-14.2x_faster-EE4C2C?style=flat-square)
+> ![Prefill](https://img.shields.io/badge/prefill-3.08x_faster-EE4C2C?style=flat-square)
+> ![Latency](https://img.shields.io/badge/generation_latency-92.4%25_lower-EE4C2C?style=flat-square)
 
 #### 📡 [Ping — Job Discovery Automation](https://github.com/Mahmood-Elahi/Ping)
 
-<sub>A Python job discovery platform that monitors LinkedIn and employer career sites, normalizes postings, ranks relevant roles, and produces source coverage diagnostics. Uses configurable ATS adapters, automated tests, and fail closed validation to distinguish incomplete scans from genuinely empty results.</sub>
-
-![Companies](https://img.shields.io/badge/companies_configured-533-009688?style=flat-square)
-![Platforms](https://img.shields.io/badge/platform_keys-41-009688?style=flat-square)
-![Coverage](https://img.shields.io/badge/coverage-explicit_diagnostics-009688?style=flat-square)
+> Built a Python-based job discovery and automation platform that aggregates opportunities from LinkedIn and employer career sites. Architected configurable ATS adapters, data ingestion and normalization pipelines, relevance-based job ranking, and automated source monitoring across 533 configured companies and 41 platform keys. Implemented regression testing, fail-closed validation, and source completeness diagnostics to detect incomplete crawls and prevent misleading results. Designed the system for scalable job aggregation, reliable data processing, and automated opportunity tracking.
+>
+> ![Companies](https://img.shields.io/badge/companies_configured-533-009688?style=flat-square)
+> ![Platforms](https://img.shields.io/badge/platform_keys-41-009688?style=flat-square)
+> ![Coverage](https://img.shields.io/badge/coverage-explicit_diagnostics-009688?style=flat-square)
 
 ---
 
@@ -118,7 +112,8 @@ I'm passionate about Software Engineering, AI/ML, Robotics, and Embedded & Auton
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![CAN bus](https://img.shields.io/badge/CAN_bus-0E7490?style=for-the-badge)
-![Protocol Buffers](https://img.shields.io/badge/Protocol_Buffers-4285F4?style=for-the-badge&logo=googleprotobuf&logoColor=white)
+![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white)
+
 
 <br>
 
@@ -135,6 +130,8 @@ I'm passionate about Software Engineering, AI/ML, Robotics, and Embedded & Auton
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 
 
@@ -144,11 +141,9 @@ I'm passionate about Software Engineering, AI/ML, Robotics, and Embedded & Auton
 
 ## Top languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahmood-Elahi&layout=compact&hide_border=true&bg_color=0A0A0B&title_color=FFC5A6&text_color=FFE0D0&langs_count=6)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahmood-Elahi&layout=donut&hide_border=true&bg_color=0A0A0B&title_color=FFC5A6&text_color=FFE0D0&langs_count=6)
 
 ---
-
-## Connect
 
 I'm interested in software engineering, AI/ML, robotics, and embedded/autonomous systems opportunities for Winter and Summer 2027. I'm also always open to collaborating on interesting projects, exploring new ideas, and discussing potential opportunities. Feel free to reach out!
 
